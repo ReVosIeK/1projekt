@@ -1,0 +1,83 @@
+A. Podstawowy layout i interfejs
+ Wyśrodkowana plansza gry
+
+ Ręka gracza na dole ekranu
+
+ Chat i dziennik zdarzeń w rogach, domyślnie ukryte
+
+ Brak przesuwania layoutu przy otwieraniu paneli
+
+ Responsywność bez globalnego scrolla
+
+B. Zarządzanie stanem gry
+ Store w zustand z cards, deck, hand, discard
+
+ loadCards() z /data/cards.json
+
+ initializeDeck() – generowanie talii startowej
+
+ drawHand() – dobieranie 5 kart
+
+C. Line-Up i kupowanie kart
+ Dodanie lineup (5 losowych kart)
+
+ Wyświetlanie Line-Upu na środku
+
+ Kliknięcie karty = próba zakupu
+
+ Liczenie mocy z ręki (power)
+
+ Kupowanie karty (jeśli power >= cost)
+
+ Przeniesienie karty do discard
+
+ Odświeżenie Line-Upu po zakupie
+
+D. Rozgrywka i logika tury
+ Zagrywanie kart z ręki (Power, karty akcji)
+
+ Efekty kart (atak, obrona, dobieranie)
+
+ Odrzucanie i dobieranie nowych rąk
+
+ Obsługa końca talii i tasowania discardu
+
+E. Multiplayer
+ Obsługa wielu graczy (max 5)
+
+ Synchronizacja stanu gry online (WebSocket)
+
+ Czat między graczami
+
+ Dziennik zdarzeń informujący o ruchach graczy
+
+F. Personalizacja i tryb ustawień
+ Tryb drag & place dla:
+
+Ręki gracza
+
+Line-Upu
+
+Superbohatera
+
+Stosów specjalnych
+
+ Zmiana ułożenia pion/poziom dla stosów
+
+ Zapis ustawień w localStorage
+
+G. Upiększenia
+ Animacje hover/zakupu
+
+ Efekty wizualne dla ataków i obron
+
+ Podświetlanie kart możliwych do zakupu
+
+ Dźwięki interfejsu (opcjonalnie)
+
+H. Tryby gry
+ Singleplayer z AI
+
+ Multiplayer online
+
+ Tryb solo z celem punktowym

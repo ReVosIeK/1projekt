@@ -1,0 +1,10 @@
+1. line-up uzupelnia sie dopiero po zakonczeniu tury gracza, w ich miejsce pownien pojawic sie placeholder. 
+2. zagrane karty mozesz zmniejszyc o 50% i najlepiej umiescic je w kontenerze, ktory sie przewija (scrollbar i drag)
+3. w tali glownej nie moga znajdowac sie superbohaterowie oraz superlotrzy
+4. wszystkie informacje zrobione przez gracza/ai powinny byc zapisywane do dziennika zdarzen np.
+    > Gracz dobrał kartę
+    > Gracz zakończył turę
+    > AI zagrał Cios x3 (zmienna ile takich samych kart zagrał AI/Player)
+    > AI Kupił "..."
+    > AI Zakończył turę
+ 
